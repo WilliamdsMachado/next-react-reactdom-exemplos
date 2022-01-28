@@ -8,9 +8,10 @@ import Subtitle from '../src/components/subtitle/Subtitle'
 import Button from '../src/components/button/Button'
 
 
+
 function HomePage () {
   const [click, setClick] = useState(0)
-
+ 
   const handleClick = () => {
     setClick(click + 1)
   }
@@ -28,11 +29,11 @@ function HomePage () {
       <Title>Outro Titulo</Title>
       <Subtitle text="Um outro Subtitulo"/>
       <Button 
-      onCLick={handleClick}
+        onCLick={handleClick}
       >
         Botão teste
       </Button>
-      <p>Cliques: {click}</p>
+      <p>Cliques: {click} </p>
     </div>
     </>
   )
