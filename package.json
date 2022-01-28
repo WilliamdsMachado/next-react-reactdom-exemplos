@@ -2,7 +2,7 @@
   "name": "next-react-reactdom-exemplos",
   "version": "1.0.0",
   "description": "",
-    "scripts": {
+  "scripts": {
     "dev": "next dev"
   },
   "repository": {

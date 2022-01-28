@@ -9,7 +9,7 @@ function App ({ Component, pageProps}) {
         <Head>
             <title>Titulo padrão</title>
         </Head>
-        < Component { ...pageProps} />
+        <Component { ...pageProps} />
         </>
     )
 }
