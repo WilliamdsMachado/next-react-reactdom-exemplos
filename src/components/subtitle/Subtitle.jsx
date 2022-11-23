@@ -1,4 +1,4 @@
-/*
+  /*
     Exemplo de componente react com props(atributos)
 */
 
